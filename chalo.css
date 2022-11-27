@@ -1,0 +1,265 @@
+body{
+margin: 0;
+padding: 0;
+@media screen {
+    
+} (max-width: 600px) 
+      display: none;
+}
+
+html{
+ scroll-behavior: smooth;
+}
+
+p{font-size: 30px;}
+h1{font-size: 3.5em;}
+h2{font-size: 2.6;}
+h3{font-size: 2em;}
+li{font-size: 60px;
+list-style: none;}
+
+input{
+   
+    width: 700px;
+    height: 50x;
+    font-size: 40px;
+    border-radius: 30px solid black;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+
+button{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 20px black;
+    color: antiquewhite;
+    background-color: rgb(43, 144, 226);
+}
+button:hover{
+    background-color: blueviolet;
+}
+header {
+    display: flex;
+    min-height: 120px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+}
+.imagen {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2em;
+    border-radius: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10PX;
+    font-weight: bold;
+    font-size: 3em;
+    font-family:fantasy;
+}
+a:hover{
+    color: blueviolet;
+}
+
+#jumbotron{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 110vh;
+    color: rgb(255, 255, 255);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(HUSATECA.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+
+#somos-chalo .container{
+    display:block;
+    text-align: center;
+    padding : 10px 20px;
+    font-size: 3em;
+    height: 50vh;
+    margin-bottom: 0px;
+    margin-top: 40px;
+   
+    
+}
+
+#container-destinos{
+    display: flex;
+    background-color: black;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 0 auto;
+    
+}
+
+#destinos{
+    display: wrap;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    height: 80vh;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 50px;
+    justify-content: center;
+   
+    
+   
+}
+
+
+.caja1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(elote.jpg);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px;
+    border: 6px solid rgb(43, 144, 226);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  
+   
+   
+}
+.caja2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(tola2.jpg);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px;
+    border: 6px solid rgb(43, 144, 226);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  
+}
+
+.caja3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(iguanas.jpg);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px;
+    border: 6px solid rgb(43, 144, 226);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ 
+  
+}
+
+.caja4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(queretaro.jpg); 
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px;
+    border: 6px solid rgb(43, 144, 226);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}
+
+#beneficios .container-beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#beneficios .cartas{
+    display: grid;
+   grid-template-columns: auto auto auto;
+  
+}
+
+#ready .aventura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    color: rgb(255, 255, 255);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(queretaro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+   
+}
+
+#fin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    
+    
+   
+}
+#fin .nav{
+    display: block;
+    font-size: 20px;
+    margin-top: 20PX;
+    margin-right: 20px;
+    
+}    
+
+@media screen and (max-width: 480px){
+    
+    #destinos{
+        display: none;
+    }
+
+}
